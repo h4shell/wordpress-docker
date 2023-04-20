@@ -23,7 +23,7 @@ services:
       MARIADB_PASSWORD: password
       MARIADB_RANDOM_ROOT_PASSWORD: "1"
     volumes:
-      - db:/var/lib/mysql
+      - ./db:/var/lib/mysql
 
 volumes:
   wordpress:
